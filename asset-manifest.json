@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/maths-solutions.git/static/css/main.f165c880.css",
+    "main.js": "/maths-solutions.git/static/js/main.f36e7218.js",
+    "static/js/453.f661a609.chunk.js": "/maths-solutions.git/static/js/453.f661a609.chunk.js",
+    "index.html": "/maths-solutions.git/index.html",
+    "main.f165c880.css.map": "/maths-solutions.git/static/css/main.f165c880.css.map",
+    "main.f36e7218.js.map": "/maths-solutions.git/static/js/main.f36e7218.js.map",
+    "453.f661a609.chunk.js.map": "/maths-solutions.git/static/js/453.f661a609.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f165c880.css",
+    "static/js/main.f36e7218.js"
+  ]
+}
