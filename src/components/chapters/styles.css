@@ -1,0 +1,21 @@
+.component-container .content-container .exercise-container{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+}
+.component-container .content-container .exercise-container ul{
+    list-style-type: none;
+}
+.component-container .content-container .exercise-container ul li{
+    padding-bottom: 12px;
+}
+.component-container .content-container .exercise-container ul li a{
+    color: #000F0C;
+    font-size: 15px;
+}
+.component-container .content-container .exercise-container ul li a:hover{
+   color: #28CEE7;
+   text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+.index-container{
+    padding-left: 3rem;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.index-container ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.index-container ul li {
+    padding-bottom: 12px;
+}
+.index-container ul li a{
+    color: #000F0C;
+    font-size: 15px;
+}
+.index-container ul li a:hover{
+    color: #28CEE7;
+    text-decoration: underline;
+}
+.heading{
+  font-size: 30px;
+  color: #28CEE7;
+}

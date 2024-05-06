@@ -1,0 +1,22 @@
+.component-container .content-container .solution-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.component-container .content-container .solution-container .content-heading{
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    color: #28CEE7;
+    letter-spacing: 1px;
+}
+.component-container .content-container .solution-container .answers{
+    font-size: 13px;
+    margin-right: 10px;
+    line-height: 2;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding-bottom: 12px; 
+}
