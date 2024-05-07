@@ -29,7 +29,6 @@ a{
    width: 100%;
   }
  .content-container{
-    background: blue;
     align-items: flex-start;
     justify-self: flex-start;
     padding: 10px;
