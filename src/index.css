@@ -24,13 +24,36 @@ a{
   width: 740px;
   margin: auto;
 }
+@media only screen and (max-width: 768px) {
+ .component-container {
+   width: 100%;
+  }
+ .content-container{
+    background: blue;
+    align-items: flex-start;
+    justify-self: flex-start;
+    padding: 10px;
+  }
+}
 .content-container{
   background: #FFF;
-  padding: 30px;
+  padding: 30px 0px;
   margin: 4rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 100px;
+}
+@media only screen and (max-width: 768px) {
+  .content-container{
+     align-items: flex-start;
+     justify-self: flex-start;
+   }
+ }
+.search-component .search-box{
+  padding: 5px 15px;
+  border: 1px solid #28CEE7;
+  border-radius: 5px;
+  outline: none;
 }
