@@ -22,7 +22,7 @@ a{
 }
 .component-container{
   width: 740px;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .content-container{
@@ -39,7 +39,6 @@ a{
   border-radius: 5px;
   outline: none;
 }
-
 @media only screen and (max-width: 768px) {
   .component-container {
     width: 100%;
@@ -49,3 +48,92 @@ a{
     gap: 50px;
    }
  }
+
+ 
+/* NAVIGATION BAR STYLING START */
+.nav-bar{
+  background: #FFF;
+  padding: 10px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .nav-logo-desktop img{
+  width: 150px;
+}
+.nav-bar .menu-icon{
+ display: none;
+}
+.nav-bar .nav-menu{
+display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+}
+.nav-bar .nav-menu ul{
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-bar .nav-menu ul li{
+  cursor: pointer;
+  color:#FFF;
+  font-size: 20px;
+}
+.nav-bar .nav-menu button{
+  padding: 8px 20px;
+  background: #FFF;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000F0C;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar{
+    padding: 20px 35px;
+  }
+  .nav-bar .nav-logo-desktop {
+    width: 100px;
+  }
+  .nav-bar .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 28px;
+  }
+  .nav-bar .nav-menu{
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    background: #FFF;
+    border-left: 1px solid #28CEE7;
+    background: #28CEE7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 5px;
+    max-height: 0;
+    transition: max-height .5s ease, padding .5s ease;
+  }
+  .nav-bar .nav-menu.open {
+    max-height: 500px;
+    padding: 30px 70px;
+    border-bottom: 1px solid #28CEE7;
+  }
+  .nav-bar .nav-menu ul {
+    text-align: center;
+    list-style-type: none;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+ }
+
+/* NAVIGATION BAR STYLING END */
+
+

@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Frontpage.css';
+import Header from './Header';
 function Frontpage() {
   return (
-    <div class="component-container">
+   <seciton>
+    <Header />
+     <div class="component-container">
         <div class="content-container">
            <div class="frontpage-content">
             <div class="top-content">
@@ -19,6 +22,7 @@ function Frontpage() {
            </div>
         </div>
     </div>
+   </seciton>
   )
 }
 
