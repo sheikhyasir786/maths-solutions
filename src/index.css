@@ -77,16 +77,16 @@ display: flex;
 }
 .nav-bar .nav-menu ul li{
   cursor: pointer;
-  color:#FFF;
+  color:#000F0C;
   font-size: 20px;
 }
 .nav-bar .nav-menu button{
   padding: 8px 20px;
-  background: #FFF;
+  background: #28CEE7;
   border: none;
   border-radius: 5px;
   font-weight: bold;
-  color: #000F0C;
+  color: #FFF;
   font-size: 15px;
   cursor: pointer;
 }
@@ -131,6 +131,13 @@ display: flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
+  }
+  .nav-bar .nav-menu ul li{
+    color:#FFF;
+  }
+  .nav-bar .nav-menu button{
+    background:#FFF;
+    color:#000F0C;
   }
  }
 
