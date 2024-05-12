@@ -1,6 +1,6 @@
 // ExerciseData.js
 
-export const Exercise1IndexData = [
+export const ChapterOneIndex = [
     {
       "id": 1.1,
       "name": "EXERCISE 1.1 SOLUTIONS"
@@ -19,7 +19,7 @@ export const Exercise1IndexData = [
     }
   ];
   
-  export const Exercise2IndexData = [
+  export const ChapterTwoIndex = [
     {
       "id": 1,
       "name": "Exercise 2.1"

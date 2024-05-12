@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 import { IndexpageData } from '../data/IndexpageData';
 import SearchComponent from './SearchComponent'; // Import the SearchComponent
 import './Indexpage.css';
+import Header from './Header';
 
 function Indexpage() {
   const [filteredData, setFilteredData] = useState(IndexpageData); // State to store filtered data
 
   return (
+  <>
+    <Header />  
     <div className="component-container">
       <div className="content-container">
         <div className="index-container">
@@ -27,6 +30,7 @@ function Indexpage() {
         </div>
       </div>
     </div>
+  </>  
   );
 }
 

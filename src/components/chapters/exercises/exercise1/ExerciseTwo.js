@@ -1,6 +1,5 @@
 import React from 'react'
 import useMathJaxEffect from './MathJax';
-import './Exercise.css';
 function ExerciseTwo() {
     useMathJaxEffect();
   return (
@@ -9,8 +8,8 @@ function ExerciseTwo() {
       <div className="solution-container">
         <h1 className="heading">Real Numbers</h1>
         <div className="solution-content">
-            <h1 class="content-heading">Exercise 1.2</h1>
-            <p class="answers"><strong>1. Express each number as a product of its prime factors:
+            <h1 className="content-heading">Exercise 1.2</h1>
+            <p className="answers"><strong>1. Express each number as a product of its prime factors:
                 <br />
                 (i) 140
                 <br />

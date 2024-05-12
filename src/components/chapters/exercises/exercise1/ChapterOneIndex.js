@@ -4,7 +4,7 @@ import ExerciseOne from './ExerciseOne';
 import ExerciseTwo from './ExerciseTwo';
 import Header from '../../../Header';
 
-function Exercise1Index() {
+function ChapterOneIndex() {
   const { id } = useParams();
   let content;
   if(id === '1.1'){
@@ -24,7 +24,7 @@ function Exercise1Index() {
   else if(id === '1.3'){
     content = (
       <div>
-       <Header />
+      
       </div>
     )
   }
@@ -37,8 +37,12 @@ function Exercise1Index() {
   }
 
   return (
-    <div>{content}</div>
+    <section>
+       <Header />
+       <div>{content}</div>
+    </section>
+    
   )
 }
 
-export default Exercise1Index;
+export default ChapterOneIndex;

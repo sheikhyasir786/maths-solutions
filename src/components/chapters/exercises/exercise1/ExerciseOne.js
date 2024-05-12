@@ -1,5 +1,4 @@
 import React from 'react';
-import './Exercise.css';
 import useMathJaxEffect from './MathJax';
 function ExerciseOne() {
   useMathJaxEffect();
@@ -42,7 +41,7 @@ function ExerciseOne() {
 
             {/* Exercise 1.1 solutions */}
             <h1 className="content-heading">Exercise 1.1</h1>
-            <p class="answers">
+            <p className="answers">
                 <strong>
                     1. Use Euclid's division algorithm to find the HCF of: <br />
                     i. 135 and 225 <br/>
@@ -228,11 +227,7 @@ function ExerciseOne() {
                 \(x^3= 9m + 8\)
                 <br/><br/>
                 Therefore, from all the three cases explained above, it is proved that the cube of any positive integer is of the form \(9m\), \(9m + 1\) or \(9m + 8\)
-                {/* Question No. 5 Ends Here */}
-
-               
-                
-
+                {/* Question No. 5 Ends Here */}   
             </p>
           </div>
         </div>

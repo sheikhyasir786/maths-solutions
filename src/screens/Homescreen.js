@@ -1,11 +1,12 @@
 import React from 'react'
-import Frontpage from '../components/Frontpage'
+import Homepage from '../components/Homepage'
+
 
 function Homescreen() {
   return (
-    <section>
-        <Frontpage />
-    </section>
+    <>
+    <Homepage />
+    </>
   )
 }
 

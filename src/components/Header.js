@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import logo from '../assets/desktop-logo.png';
+import desktopLogo from '../assets/desktop-logo.png';
 import mobileLogo from '../assets/mobile-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,17 +17,36 @@ function Header() {
     <header>
       <div className="nav-bar">
         <div className="nav-logo-desktop">
-          <img src={logo} alt="Desktop Logo" />
+          <img src={desktopLogo} alt="Desktop Logo" />
+        </div>
+        <div className="nav-logo-mobile">
+          <img src={mobileLogo} alt="Desktop Logo" />
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} />
         </div>
         <div className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
           <ul>
-            <li>Home</li>
-            <li>NCERT Solutions</li>
-            <li>Contact</li>
-            <li>About Us</li>
+            <li>
+                <Link to="/">
+                    Home
+                </Link>
+            </li>
+            <li>
+                <Link to="/indexpage">
+                    NCERT Solutions
+                </Link>
+            </li>
+            <li>
+                <Link >
+                    Contact
+                </Link>
+            </li>
+            <li>
+                <Link to="/">
+                   About Us
+                </Link>
+            </li>
           </ul>
           <button className="login-btn">Login</button>
         </div>   

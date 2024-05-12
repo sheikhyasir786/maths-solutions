@@ -21,9 +21,9 @@ const SearchComponent = ({ data, setFilteredData }) => {
   };
 
   return (
-    <div class="search-component">
+    <div className="search-component">
       <input
-        class="search-box"
+        className="search-box"
         type="text"
         placeholder="Search..."
         value={searchQuery}

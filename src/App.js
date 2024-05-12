@@ -1,19 +1,19 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Import HashRouter instead of BrowserRouter
 import Homescreen from "./screens/Homescreen";
-import Frontpage from './components/Frontpage';
+import Homepage from './components/Homepage';
 import Indexpage from './components/Indexpage';
 import Index from './components/chapters/Index';
-import Exercise1Index from './components/chapters/exercises/exercise1/Exercise1Index';
+import ChapterOneIndex from './components/chapters/exercises/exercise1/ChapterOneIndex';
 
 function App() {
   return (
    <Router>
     <Routes>
-        <Route path="/frontpage" element={<Frontpage />} />
+        <Route path="/homepage" element={<Homepage />} />
         <Route path="/indexpage" element={<Indexpage />} />
         <Route path="/Chapter/:id" element={<Index />} />
-        <Route path="/Exercise/:id" element={<Exercise1Index />} />
+        <Route path="/Exercise/:id" element={<ChapterOneIndex />} />
         <Route path="/" element={<Homescreen />} />
     </Routes>
    </Router>  
