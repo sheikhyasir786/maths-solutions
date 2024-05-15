@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import desktopLogo from '../assets/desktop-logo.png';
 import mobileLogo from '../assets/mobile-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -16,9 +15,6 @@ function Header() {
   return (
     <header>
       <div className="nav-bar">
-        <div className="nav-logo-desktop">
-          <img src={desktopLogo} alt="Desktop Logo" />
-        </div>
         <div className="nav-logo-mobile">
           <img src={mobileLogo} alt="Desktop Logo" />
         </div>

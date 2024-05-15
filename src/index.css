@@ -14,7 +14,6 @@ strong{
 body{
  font-family: Helvetica, sans-serif;
  color: #000F0C;
- background: #f1f1f1;
 }
 a{
   text-decoration: none;
@@ -31,13 +30,33 @@ a{
   gap: 100px;
   padding: 40px 0px;
 }
-
 .search-component .search-box{
   padding: 5px 15px;
   border: 1px solid #28CEE7;
   border-radius: 5px;
   outline: none;
 }
+
+/* Mlean buttons start */
+.mlean-button-primary{
+  background:#28CEE7;
+  width: 250px;
+  padding: 15px 30px;
+  text-align: center;
+  color: #FFF;
+  border: 2px solid #000F0C;
+  border-radius: 5px;
+  cursor: pointer
+}
+
+.mlean-button-primary:hover{
+  background: #FFF;
+  color: #000F0C;
+  border: 2px solid #28CEE7
+}
+
+
+/* Mlean buttons End */
 @media only screen and (max-width: 768px) {
   .component-container {
     width: 100%;

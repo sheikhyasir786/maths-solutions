@@ -1,0 +1,116 @@
+
+.homepage-container{
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+ }
+ .homepage-container .homepage-heroDesktop{
+    width: 100%;
+    max-height: 1080px;
+    min-height: 608px;
+ }
+ .homepage-container .homepage-heroMobile{
+       display: none; 
+ }
+ .homepage-container .homepage-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    width: 45%;
+    top: 150px;
+    left: 100px;
+}
+.homepage-container .homepage-content .homepage-title{
+    color:#28CEE7;
+    font-size: 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.homepage-container .homepage-content .homepage-subtitle{
+    color: #000F0C;
+    font-size: 20px;
+}
+
+.homepage-container .homepage-content .homepage-description{
+    color:#000F0C;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.header{
+    text-transform: uppercase;   
+    font-size: 60px; 
+    font-weight: bold;
+    color: #28CEE7;
+    
+}
+.sub-heading,.bottom-heading{
+    font-size: 25px;
+}
+.button{
+    background: #28CEE7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.frontpage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+}
+
+.top-content {
+    text-align: center;
+}
+
+.bottom-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+      font-size: 36px;  
+    }
+    .sub-heading,.bottom-heading{
+        font-size: 18px;
+    }
+    .frontpage-content{
+        gap: 50px;
+    }
+
+    .homepage-container .homepage-heroDesktop{
+       display: none;
+     }
+     .homepage-container .homepage-heroMobile{
+       display: block;
+       width: 100%;
+     }
+     .homepage-container .homepage-content{
+      position:static;
+      width: auto;
+      padding: 25px 20px;
+     }
+     .homepage-container .homepage-content .homepage-title{
+        font-size: 30px;
+        text-align: left;
+     }
+
+     .homepage-container .homepage-content .homepage-subtitle{
+        font-size: 20px;
+     }
+}

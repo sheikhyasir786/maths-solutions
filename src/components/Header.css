@@ -1,23 +1,18 @@
 /* NAVIGATION BAR STYLING START */
 .nav-bar{
-    background: #28CEE7;
-    padding: 20px 70px;
+    background: #FFF;
+    padding: 30px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
-  .nav-bar .nav-logo-desktop img{
-    width: 160px;
-   
-  }
-  .nav-bar .nav-logo-mobile{
-   display: none
-  }
+
   .nav-bar .menu-icon{
    display: none;
   }
   .nav-bar .nav-menu{
-  display: flex;
+   display: flex;
    align-items: center;
    justify-content: center;
    gap: 30px;
@@ -30,12 +25,13 @@
   .nav-bar .nav-menu ul li a{
     display: inline-block;
     cursor: pointer;
-    color:#FFF;
-    font-size: 18px;
+    color:#000F0C;
+    font-size: 14px;
     position: relative;
+    line-height: 20px;;
   }
   .nav-bar .nav-menu ul li a:hover{
-    color:rgba(0, 15, 12, 0.6);
+    color:rgba(40, 206, 231, 1);
   }
   .nav-bar .nav-menu ul li a::after{
     content: '';
@@ -44,7 +40,7 @@
     bottom:-3px;
     height: 3px;
     width: 0px;
-    background-color: rgba(0, 15, 12, 0.6);
+    background-color: rgba(40, 206, 231, 1);
     transition: all 0.3s ease-in-out;
    }
    .nav-bar .nav-menu ul li a:hover::after{
@@ -52,12 +48,19 @@
    }
   .nav-bar .nav-menu button{
     padding: 8px 20px;
-    background: #FFF;
+    background: #28CEE7;
     border: none;
     border-radius: 5px;
-    color: #000F0C;
-    font-size: 16px;
+    color: #FFF;
+    font-size: 14px;
     cursor: pointer;
+    border: 2px solid #000F0C;
+  }
+
+  .nav-bar .nav-menu button:hover{
+    background: #FFF;
+    color: #000F0C;
+    border: 2px solid #28CEE7
   }
   
   @media only screen and (max-width: 768px) {
