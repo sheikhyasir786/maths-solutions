@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/maths-solutions/static/css/main.1393f826.css",
-    "main.js": "/maths-solutions/static/js/main.11ce1bd5.js",
+    "main.js": "/maths-solutions/static/js/main.caee9155.js",
     "static/js/453.f661a609.chunk.js": "/maths-solutions/static/js/453.f661a609.chunk.js",
     "static/media/HomepageHero.png": "/maths-solutions/static/media/HomepageHero.67245364aa00d20cfbd0.png",
     "static/media/homepageheromobile.png": "/maths-solutions/static/media/homepageheromobile.eb99ef41dc22e9726b96.png",
     "index.html": "/maths-solutions/index.html",
     "main.1393f826.css.map": "/maths-solutions/static/css/main.1393f826.css.map",
-    "main.11ce1bd5.js.map": "/maths-solutions/static/js/main.11ce1bd5.js.map",
+    "main.caee9155.js.map": "/maths-solutions/static/js/main.caee9155.js.map",
     "453.f661a609.chunk.js.map": "/maths-solutions/static/js/453.f661a609.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1393f826.css",
-    "static/js/main.11ce1bd5.js"
+    "static/js/main.caee9155.js"
   ]
 }
